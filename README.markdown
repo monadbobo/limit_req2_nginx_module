@@ -18,7 +18,9 @@ limit_req2_zone
 -------------
 
 **Syntax**: *limit_req2_zone $session_variable1 $session_variable2 ... zone=name_of_zone:size rate=rate*
+
 **Default**: *none*
+
 **Context**: *http*
 
 Support more than one limit variables. For example:
@@ -32,7 +34,9 @@ limit_req2
 ------------------------
 
 **Syntax**: *limit_req2 [on | off] | zone=zone_name burst=burst [forbid_action=action] \[nodelay\]*
+
 **Default**: *none*
+
 **Context**: *http, server, location*
 
 Multiple limit conditions are allowed in a single block. And all the conditions are examined in order.
@@ -68,7 +72,9 @@ limit_req2_whitelist
 ------------------------
 
 **Syntax**: *limit_req2_whitelist geo_var_name=var_name geo_var_value=var_value*
+
 **Default**: *none*
+
 **Context**: *http, server, location*
 
 Set the whitelist.
