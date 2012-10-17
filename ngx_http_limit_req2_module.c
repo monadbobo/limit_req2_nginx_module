@@ -107,7 +107,7 @@ static ngx_command_t  ngx_http_limit_req2_commands[] = {
       NULL },
 
     { ngx_string("limit_req2"),
-      NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_CONF_TAKE123,
+      NGX_HTTP_MAIN_CONF|NGX_HTTP_SRV_CONF|NGX_HTTP_LOC_CONF|NGX_CONF_TAKE1234,
       ngx_http_limit_req2,
       NGX_HTTP_LOC_CONF_OFFSET,
       0,
